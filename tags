@@ -1634,6 +1634,7 @@ beforeShow	includes/acf/assets/inc/timepicker/jquery-ui-timepicker-addon.js	/^		
 before_fields	includes/acf/pro/fields/class-acf-field-repeater.php	/^				$before_fields = '<td class="acf-fields -left">';$/;"	v
 before_fields	includes/acf/pro/fields/class-acf-field-repeater.php	/^				$before_fields = '<td class="acf-fields">';$/;"	v
 before_fields	includes/acf/pro/fields/class-acf-field-repeater.php	/^			$before_fields = '';$/;"	v
+behavior	src/assets/js/utils/scroll-to-top.js	/^        behavior: 'instant',$/;"	P
 below	includes/acf/assets/inc/select2/3/select2.js	/^			below = more.offset().top - results.offset().top - results.height();$/;"	P
 bind	includes/acf/assets/inc/select2/3/select2.js	/^		bind: function ( func ) {$/;"	M
 bind	includes/acf/assets/inc/select2/3/select2.min.js	/^					bind: function ( a ) {$/;"	M
@@ -7032,6 +7033,7 @@ setPlaceholder	includes/acf/assets/inc/select2/3/select2.min.js	/^					setPlaceh
 setTimeout	includes/acf/assets/inc/select2/4/select2.full.js	/^							setTimeout( function () {$/;"	M
 setTimeout	includes/acf/assets/inc/select2/4/select2.js	/^							setTimeout( function () {$/;"	M
 setTimeout	includes/acf/assets/inc/timepicker/jquery-ui-timepicker-addon.js	/^					setTimeout( function () {$/;"	M
+setTimeout	src/assets/js/utils/scroll-to-top.js	/^setTimeout( function() {$/;"	M
 setVal	includes/acf/assets/inc/select2/3/select2.js	/^		setVal: function ( val ) {$/;"	M
 setVal	includes/acf/assets/inc/select2/3/select2.min.js	/^					setVal: function ( b ) {$/;"	M
 set_current_route	includes/acf/includes/rest-api/class-acf-rest-request.php	/^	private function set_current_route( $request ) {$/;"	f
@@ -7761,6 +7763,7 @@ top	includes/acf/assets/inc/select2/4/select2.js	/^						top: -999999,$/;"	P
 top	includes/acf/assets/inc/select2/4/select2.js	/^						top: 0,$/;"	P
 top	includes/acf/assets/inc/select2/4/select2.js	/^						top: container.bottom,$/;"	P
 top	includes/acf/assets/inc/select2/4/select2.min.js	/^										top: -999999,$/;"	P
+top	src/assets/js/utils/scroll-to-top.js	/^        top: 0,$/;"	P
 topOffset	includes/acf/assets/inc/select2/3/select2.js	/^			topOffset = ( child.offset() || {} ).top || 0;$/;"	P
 total	includes/acf/includes/admin/admin-field-groups.php	/^				$total = count( $objects );$/;"	v
 total	includes/acf/includes/admin/tools/class-acf-admin-tool-import.php	/^			$total = count( $ids );$/;"	v
