@@ -1,0 +1,70 @@
+{
+    "name": "eliottpacquet",
+    "version": "1.0.0",
+    "description": "this is a description",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "dependencies": {
+        "gsap": "^3.10.4",
+        "hamburgers": "^1.2.1",
+        "lazysizes": "^5.3.2",
+        "splitting": "^1.0.6"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.16.7",
+        "@babel/preset-env": "^7.16.7",
+        "@babel/register": "^7.12.1",
+        "autoprefixer": "^10.0.4",
+        "babel-loader": "^8.1.0",
+        "babel-preset-env": "^1.7.0",
+        "browser-sync": "^2.27.5",
+        "cssnano": "^5.0.15",
+        "cssnano-preset-advanced": "^5.1.10",
+        "del": "^5.1.0",
+        "eslint": "^8.12.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-dart-sass": "^1.0.2",
+        "gulp-hash": "^4.2.2",
+        "gulp-if": "^3.0.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-notify": "^4.0.0",
+        "gulp-postcss": "^9.0.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-size": "^4.0.1",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-terser": "^2.1.0",
+        "gulp-webp": "^4.0.1",
+        "gulp-zip": "^5.0.2",
+        "jshint": "^2.13.3",
+        "jshint-loader": "^0.8.4",
+        "jshint-loader-stylish": "^1.0.1",
+        "node-sass": "^4.13.1",
+        "postcss": "^8.4.12",
+        "prettier": "2.6.2",
+        "vinyl-named": "^1.1.0",
+        "webpack-bundle-analyzer": "^4.5.0",
+        "webpack-stream": "^5.2.1",
+        "yargs": "^15.4.1"
+    },
+    "browserslist": [
+        ">0.1%",
+        "last 2 Chrome versions",
+        "last 2 Firefox versions",
+        "last 2 Edge versions",
+        "last 2 Samsung versions",
+        "last 2 Safari versions"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "gulp",
+        "build": "gulp build --prod",
+        "bundle": "gulp bundle --prod"
+    },
+    "author": "",
+    "license": "ISC"
+}

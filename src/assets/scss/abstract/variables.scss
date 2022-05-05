@@ -1,0 +1,67 @@
+// Colors
+$bg: #fcfcfc;
+$color: #000;
+
+// FONTS
+// $bold: 'Avara_Bold';
+$italic: 'Avara_Bold Italic';
+$black: 'Avara_Black';
+$light: 'Ortica Light';
+// $bold: 'Ortica Bold';
+$bold: 'DK Hokitika';
+
+// FONT SIZE
+$h1: 4.209rem;
+$h2: 3.157rem;
+$h3: 2.369rem;
+$h4: 1.777rem;
+$h5: 1.333rem;
+$small: 0.75rem;
+
+// HEADER & FOOTER
+$headerfooter: 100px;
+
+// Margins
+$rss: 1px;
+$rs: 3px;
+$r: 5px;
+$r2: calc( #{$r} * 2 );
+$r3: calc( #{$r} * 3 );
+$r4: calc( #{$r} * 4 );
+$r5: calc( #{$r} * 5 );
+$r6: calc( #{$r} * 6 );
+$r7: calc( #{$r} * 7 );
+$r8: calc( #{$r} * 8 );
+$r9: calc( #{$r} * 9 );
+$r10: calc( #{$r} * 10 );
+$r11: calc( #{$r} * 11 );
+$r12: calc( #{$r} * 12 );
+$r13: calc( #{$r} * 13 );
+$r14: calc( #{$r} * 14 );
+$r15: calc( #{$r} * 15 );
+$r16: calc( #{$r} * 16 );
+$r17: calc( #{$r} * 17 );
+$r18: calc( #{$r} * 18 );
+$r19: calc( #{$r} * 19 );
+$r20: calc( #{$r} * 20 );
+$r21: calc( #{$r} * 21 );
+$r22: calc( #{$r} * 22 );
+$r23: calc( #{$r} * 23 );
+$r24: calc( #{$r} * 24 );
+$r25: calc( #{$r} * 25 );
+$r26: calc( #{$r} * 26 );
+$r27: calc( #{$r} * 27 );
+$r28: calc( #{$r} * 28 );
+$r29: calc( #{$r} * 29 );
+$r30: calc( #{$r} * 30 );
+
+
+// Animations / Transitions
+$duration: 0.25s;
+$duration2: 0.7s;
+$delay: 0.0s;
+$easing: ease;
+$easing2: ease-in-out;
+
+$transition: all $duration $delay $easing2;
+$transition2: all $duration2 $delay $easing2;

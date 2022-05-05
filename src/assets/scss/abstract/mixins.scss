@@ -1,0 +1,37 @@
+/****************************************************
+ *	MIXINS: MEDIA QUERIES
+ * *************************************************/
+
+@mixin respond($breakpoint) {
+
+    @if $breakpoint==hd {
+        @media only screen and (max-width: 1440px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==md {
+        @media only screen and (max-width: 1280px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==tablet {
+        @media only screen and (max-width: 768px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==mobile {
+        @media only screen and (max-width: 400px) {
+            @content;
+        }
+    }
+}
+
+/****************************************************
+* Return negative value from variable
+* *************************************************/
+@function neg($val) {
+    @return calc($val * -1)
+};

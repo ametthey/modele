@@ -1,0 +1,39 @@
+/****************************************************
+ * BASE
+ * *************************************************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    & :before {
+        box-sizing: border-box;
+    }
+
+    & :after {
+        box-sizing: border-box;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: $r5 $r10;
+    background-color: $bg;
+    width: 100vw;
+}
+
+html,
+body {
+    // min-height: -webkit-fill-available;
+}
